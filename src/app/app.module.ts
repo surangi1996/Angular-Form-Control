@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { ProfleComponent } from './profle/profle.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
         BrowserModule,
         AppRoutingModule,
       FormsModule,
-      ReactiveFormsModule,
-      NgbModule
+      ReactiveFormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
