@@ -1,5 +1,14 @@
 <div class="container mt-2" >
-    <button (click)='show()' class="btn btn-success">
-        Click Here
-    </button>
+  <table class="table">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td>{{employee.id}}</td>
+        <td>{{employee.name}}</td>
+        <td>{{employee.email}}</td>
+    </tr>
+  </table>
 </div>
